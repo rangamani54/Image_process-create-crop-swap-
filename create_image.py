@@ -1,6 +1,7 @@
 import cv2
 import numpy as np
-import matplotlib as mpl
+
+#Image with all values zero
 photo = np.zeros((750,1380,3))
 
 #for border
@@ -47,6 +48,5 @@ def show_image(name, image_name):
 
 show_image("testing", photo)
 
-mpl.imshow(photo)
 
 
